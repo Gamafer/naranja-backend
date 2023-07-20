@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "prod": "node app.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
@@ -15,16 +15,21 @@
     "jsonwebtoken": "^9.0.0",
     "moment": "^2.29.4",
     "mongoose": "^7.1.1",
-    "nodemailer": "^6.9.3",
+    "nodemailer": "^6.9.3"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.22"
   },
-  "repository": {
+  "repository": { 
     "type": "git",
-    "url": "git+https://github.com/FSDSTR0323/naranja-backend.git"
+    "url": "git+https://github.com/Gamafer/naranja-backend"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FSDSTR0323/naranja-backend/issues"
+    "url": "https://github.com/Gamafer/naranja-backend/issues"
   },
-  "homepage": "https://github.com/FSDSTR0323/naranja-backend#readme",
+  "homepage": "https://github.com/Gamafer/naranja-backend#readme",
   "description": ""
 }
